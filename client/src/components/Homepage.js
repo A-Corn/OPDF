@@ -1,5 +1,4 @@
 import React from 'react'
-import { Link } from "react-router-dom";
 
 const Homepage = () => {
 
@@ -15,7 +14,7 @@ const Homepage = () => {
                             <br className="hidden md:block" />
                             One Piece Devil Fruit
                             <span className="inline-block text-deep-purple-accent-400">
-                                API
+                                
                             </span>
                         </h2>
                         <p className="text-base text-gray-700 md:text-lg">

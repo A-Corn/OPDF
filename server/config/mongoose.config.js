@@ -1,10 +1,10 @@
 const mongoose = require('mongoose');
 
-mongoose.connect('mongodb://localhost/mern_exam' , {
+mongoose.connect('mongodb://localhost/opdf', {
     useNewUrlParser: true,
     useUnifiedTopology: true,
 })
-    .then( () => 
+    .then(() =>
         console.log('Established a connection with the database! '))
-    .catch( err => 
+    .catch(err =>
         console.log('Something went wrong when connection to the database ', err));

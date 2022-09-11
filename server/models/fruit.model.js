@@ -21,10 +21,10 @@ const FruitSchema = new mongoose.Schema({
         required: [true, "An image is required, Please insert the link to the image"],
     },
     taken: {
-        type: Boolean,
+        type: String,
     },
     awakened: {
-        type: Boolean,
+        type: String,
     },
     knownUsers: {
         type: String,
