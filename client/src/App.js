@@ -13,7 +13,7 @@ function App() {
             <Route path="/" element={<Homepage />} />
             <Route path="/dashboard" element={<DisplayAll />} />
             <Route path="/new/fruit" element={<NewFruit />} />
-            <Route path="/fruit/data" element={<OneFruitData />} />
+            <Route path={`/api/fruit/${id}`} element={<OneFruitData />} />
           </Routes>
       </BrowserRouter>
     </div>

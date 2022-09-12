@@ -17,7 +17,7 @@ const DisplayAll = (props) => {
     }, []);
 
     return (
-        <div>
+        <div className="bg-[url('https://wallpapermemory.com/uploads/757/one-piece-background-hd-1920x1200-314140.jpg')] bg-no-repeat bg-cover h-full">
             <header>
                 <p>   </p>
                 <Link to="/new/fruit"> Add a Devil Fruit </Link>
@@ -25,20 +25,20 @@ const DisplayAll = (props) => {
             <table className="table-auto w-full p-10">
                 <thead className="border-b">
                     <tr className="bg-gray-100">
-                        <th className="text-left p-4 font-medium">Name</th>
-                        <th className="text-left p-4 font-medium">Type</th>
-                        <th className="text-left p-4 font-medium">Taken</th>
-                        <th className="text-left p-4 font-medium">Awakened</th>
+                        <th className="text-left p-4 font-medium text-white">Name</th>
+                        <th className="text-left p-4 font-medium text-white">Type</th>
+                        <th className="text-left p-4 font-medium text-white">Taken</th>
+                        <th className="text-left p-4 font-medium text-white">Awakened</th>
                     </tr>
                 </thead>
             <tbody>
                 {allFruits.map((fruit, index) => {
                     return (
                         <tr key={fruit._id} className="border-b hover:bg-gray-50">
-                            <td className="text-left p-4 font-normal" ><Link to="/fruit/data"> {fruit.name}  </Link></td>
-                            <td className="text-left p-4 font-normal"> {fruit.type}</td>
-                            <td className="text-left p-4 font-normal"> {fruit.taken}</td> 
-                            <td className="text-left p-4 font-normal"> {fruit.awakened}</td> 
+                            <td className="text-left p-4 font-normal text-white" ><Link to="/fruit/data"> {fruit.name}  </Link></td>
+                            <td className="text-left p-4 font-normal text-white"> {fruit.type}</td>
+                            <td className="text-left p-4 font-normal text-white"> {fruit.taken}</td> 
+                            <td className="text-left p-4 font-normal text-white"> {fruit.awakened}</td> 
                         </tr>
                     )
                 })}

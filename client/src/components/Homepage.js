@@ -3,7 +3,7 @@ import React from 'react'
 const Homepage = () => {
 
     return (
-        <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
+        <div className="w-full flex items-center justify-center h-screen bg-[url('https://a-static.besthdwallpaper.com/foosha-vilage-luffy-hometown-wallpaper-2400x1350-32016_50.jpg')] bg-no-repeat bg-cover">
             <div className="grid gap-10 lg:grid-cols-2">
                 <div className="flex flex-col justify-center md:pr-8 xl:pr-0 lg:max-w-lg">
                     <div className="flex items-center justify-center w-16 h-16 mb-4 rounded-full bg-teal-accent-400">
@@ -17,7 +17,7 @@ const Homepage = () => {
                                 
                             </span>
                         </h2>
-                        <p className="text-base text-gray-700 md:text-lg">
+                        <p className="text-base text-black md:text-lg">
                             Your one stop shop for all thing devil fruit related in the world of One Piece
                         </p>
                     </div>
@@ -38,7 +38,7 @@ const Homepage = () => {
                         </a>
                     </div>
                 </div>
-                <div className="flex items-center justify-center -mx-4 lg:pl-8">
+                <div className="flex items-center justify-center -mx-1 lg:pl-8">
                     <div className="flex flex-col items-end px-3">
                         <img
                             className="object-cover mb-6 rounded shadow-lg h-28 sm:h-48 xl:h-56 w-28 sm:w-48 xl:w-56"
