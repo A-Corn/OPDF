@@ -4,6 +4,7 @@ import Homepage from "./components/Homepage";
 import DisplayAll from "./components/DisplayAll";
 import NewFruit from "./components/NewFruit";
 import OneFruitData from "./components/OneFruitData";
+import EditFruit from "./components/EditFruit";
 
 function App() {
   return (
@@ -13,7 +14,8 @@ function App() {
             <Route path="/" element={<Homepage />} />
             <Route path="/dashboard" element={<DisplayAll />} />
             <Route path="/new/fruit" element={<NewFruit />} />
-            <Route path={`/api/fruit/${id}`} element={<OneFruitData />} />
+            <Route path="/fruit/:id" element={<OneFruitData />} />
+            <Route path="/fruit/edit/:id" element={<EditFruit />} />
           </Routes>
       </BrowserRouter>
     </div>

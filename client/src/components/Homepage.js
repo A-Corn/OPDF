@@ -10,14 +10,9 @@ const Homepage = () => {
                     </div>
                     <div className="max-w-xl mb-6">
                         <h2 className="max-w-lg mb-6 font-sans text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl sm:leading-none">
-                            OPDF
-                            <br className="hidden md:block" />
                             Devil Fruit Encyclopedia
-                            <span className="inline-block text-deep-purple-accent-400">
-                                
-                            </span>
                         </h2>
-                        <p className="text-base text-black md:text-lg">
+                        <p className="text-base text-black md:text-lg p-4 translate-y-9">
                             Your one stop shop for all thing devil fruit related in the world of One Piece
                         </p>
                     </div>
@@ -25,7 +20,7 @@ const Homepage = () => {
                         <a
                             href="/dashboard"
                             aria-label=""
-                            className="inline-flex items-center font-semibold transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800"
+                            className="inline-flex items-center font-semibold translate-y-6 text-xl"
                         >
                             Open encyclopedia
                             <svg
